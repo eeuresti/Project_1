@@ -4,24 +4,31 @@ h1 {
 p{
     text-align:center;
 }
+body{
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+
 .container{
-  margin-top: 30px;
-  text-align: center;
-  position:relative;
+  margin-top: 25px;
+text-align: center;
+position: relative;
+margin-right: 85px;
 }
 #lane1 {
   background-color: gray;
-      height: 500px;
-      width: 75px;
+      height: 525px;
+      width: 100px;
       display: inline-block;
       text-align: center;
+      
 
 
 }
 #lane2 {
   background-color:gray;
-      height: 500px;
-      width: 75px;
+      height: 525px;
+      width: 100px;
       margin-left: auto;
       display: inline-block;
       position: absolute;
@@ -36,4 +43,7 @@ p{
 .input{
 
   padding-top: 5px;
+}
+button{
+  margin-left: 75px;
 }
